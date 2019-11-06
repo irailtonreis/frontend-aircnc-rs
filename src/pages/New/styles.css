@@ -1,0 +1,20 @@
+label#thambnail{
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label#thambnail input{
+   display: none;
+}
+
+label#thambnail.has-thumbnail{
+    border: 0;
+ }
+ label#thambnail.has-thumbnail img{
+    display: none;
+ }
